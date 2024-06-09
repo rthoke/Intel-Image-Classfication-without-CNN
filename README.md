@@ -23,11 +23,17 @@ Feature Extraction
 To leverage the GradientBoostingClassifier, we employ several image processing techniques to extract meaningful features from the images:
 
 Histogram Equalization: Enhances the contrast of images.
+
 Gray-scale Transformation: Converts images to gray-scale to simplify the feature space.
+
 Image Smoothing: Reduces noise using Gaussian blur.
+
 Edge Detection: Identifies edges using Canny and Sobel filters.
+
 Line Detection: Detects lines using Hough transforms.
+
 SIFT Features: Extracts Scale-Invariant Feature Transform (SIFT) descriptors to capture local features.
+
 HOG Features: Computes Histogram of Oriented Gradients (HOG) features for capturing gradient structure.
 
 Dataset Description
