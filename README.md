@@ -1,4 +1,5 @@
-Intel Image Classification using GradientBoostingClassifier
+#Intel Image Classification using GradientBoostingClassifier
+
 Overview
 This repository provides an implementation of image classification for Intel's dataset using the GradientBoostingClassifier. While Convolutional Neural Networks (CNNs) are a popular choice for image classification, GradientBoostingClassifier can also be highly effective, particularly when combined with robust feature extraction techniques. This approach leverages the power of GradientBoostingClassifier to achieve high accuracy without the complexity and computational demands of CNNs.
 
