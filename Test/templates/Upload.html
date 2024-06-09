@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="title">
+        <h1>Upload your Image....</h1>
+    </div>
+</head>
+<style>
+body {
+ font-family: "Times New Roman", sans-serif;
+ color: #FFFFFF;
+ min-height: 100%;
+}
+
+
+.someHeader {
+    height: 50px;
+}
+</style>
+<body>
+    <p  align="middle" style="font-size:30px ;color: #000000;" >File Name: {{name}}</p>
+    <form align="middle" action="/success" method="POST" enctype="multipart/form-data">
+        <input class="some" type="file" name="sile" />
+        <input class="button-30" type="submit" value="Upload">
+    </form>
+</body>
+<footer>
+    <p style="font-size:30px ;">Created by -- Rajesh Thoke</p>
+    <p style="font-size:25px ;"> Greetings -- Have a Good day </p>
+</footer>
+
+
+</html>
